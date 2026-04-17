@@ -1,0 +1,14 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr; /* одна колонка */
+  gap: 16px;
+  justify-items: start;       /* всё прижато влево */
+  align-items: start;
+}
+.about h2,
+.about .card,
+.about .stats {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
